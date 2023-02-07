@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        .login {
+            width: 500px;
+            margin: 200px auto auto auto;
+            text-align: center;
+}
+    </style>
+    <img src="/img/logo.png" />
+</head>
+<body>
+    <div class = "login">
+        <h1 class = "title">로그인 페이지</h1>
+        <hr>
+        <form action="/login_pro" method="Get">
+            <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+            email : <input type="text" name="username"> <br>
+            password : <input type="password" name="password"> <br>
+                <button type="submit">Login</button>
+        </form> <br>
+        <a href="/signup">회원가입</a>
+        <hr>
+    </div>
+</body>
+</html>

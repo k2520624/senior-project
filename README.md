@@ -1,7 +1,7 @@
 # 얼굴인식 자동출석 프로그램
 
 * 군산대학교 IT정보제어공학부 4학년 졸업 작품(팀장)
-* 역할 Web(main), face recognition(sub)
+* 역할 Web, Streaming(main),    face recognition, socket(sub)
 ### Summary
 
 1. 회원가입시 교수와 학생을 구별하여 가입
@@ -39,6 +39,13 @@
 
 
   <br>
+  
+  
+### Streaming
+* vlc player 프로그램으로 캠에 송출되는 영상을 웹에 띄울 수 있도록 ip 주소를 생성
+<img src="https://user-images.githubusercontent.com/75367132/218473609-cba79682-77d8-4615-91e5-2642928accb3.PNG" width="50%" height="50%">
+
+
 
 ### Face recognition
 
@@ -59,8 +66,11 @@
 
 [dlib_download](https://thecodingnote.tistory.com/8)
 
-[눈깜박인식](https://github.com/kairess/eye_blink_detector)
+[눈깜빡인식](https://github.com/kairess/eye_blink_detector)
 
+[웹(spring)](https://shinsunyoung.tistory.com/78)
+
+[websocket 통신](https://qazyj.tistory.com/317)
 
 ## Results
 

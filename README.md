@@ -30,17 +30,18 @@
 
 <img src="https://img.shields.io/badge/Language-Java-green?style=flat"/><img src="https://img.shields.io/badge/Framework-Spring-blue?style=flat"/>
 
-* 샘플 데이터셋을 받아와서 학습시킨 후 모델 파일로 저장
+* java(spring)로 웹을 만들어 python과 실시간으로 데이터를 주고받으며 순차적으로 프로그램이 실행되도록 구현
   <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/07/driver-drowsiness-dataset-sample.png" width="80%" height="50%">
-* 학습시킨 모델 파일로 눈 깜빡 여부 예측
+
   <br>
 
 ### Face recognition
 
 <img src="https://img.shields.io/badge/Language-Python-green?style=flat"/><img src="https://img.shields.io/badge/Library-Opencv-blue?style=flat"/>
 
-* 샘플 데이터셋을 받아와서 학습시킨 후 모델 파일로 저장
-  <img src="https://user-images.githubusercontent.com/75367132/218464861-a26cfa21-918e-4ce9-bb1e-09d59d1783d3.PNG" width="80%" height="50%">
+* python dlib 라이브러리를 사용해서 미리 저장된 사진과 영상속 얼굴을 비교 후 판단
+
+  <img src="https://user-images.githubusercontent.com/75367132/218464861-a26cfa21-918e-4ce9-bb1e-09d59d1783d3.PNG" width="50%" height="50%">
 
   <br>
   

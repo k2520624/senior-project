@@ -31,7 +31,12 @@
 <img src="https://img.shields.io/badge/Language-Java-green?style=flat"/><img src="https://img.shields.io/badge/Framework-Spring-blue?style=flat"/>
 
 * java(spring)로 웹을 만들어 python과 실시간으로 데이터를 주고받으며 순차적으로 프로그램이 실행되도록 구현
-  <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/07/driver-drowsiness-dataset-sample.png" width="80%" height="50%">
+* vlc player를 사용해서 각자 얼굴이 송출되는 스트리밍 영상 ip 주소를 받아와서 jsp 구현 
+* java와 python 사이의 데이터 통신은 websocket 라이브러리 사용 (sub)
+
+  <img src="https://user-images.githubusercontent.com/75367132/218469938-826fe1d4-e89b-444f-95ef-efe9bca4837f.PNG" width="50%" height="50%"><img src="https://user-images.githubusercontent.com/75367132/218469944-d1211a58-4b4c-435c-8c97-3b5c1927c4c5.PNG" width="50%" height="50%">
+  <img src="https://user-images.githubusercontent.com/75367132/218469785-4930ff1b-7451-4b48-a02c-21e804cb59c5.PNG" width="50%" height="50%">
+
 
   <br>
 

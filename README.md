@@ -4,10 +4,13 @@
 * 역할 Web(main), face recognition(sub)
 ### Summary
 
-* 
+1. 회원가입시 교수와 학생을 구별하여 가입
 
-* 일정 시간 눈이 감겨있으면 경보음 재생
-  <br>
+2. 로그인 후 수업 입장시 얼굴 인식된 사람만 입장이 가능
+3. 수업에 입장하면 웹에 스트리밍 영상이 띄워짐
+4. 수업 중 눈이 감겨있는 행동이 5분 이상 지속시 경고 및 기록
+5. 기록된 데이터를 교수에게 전송
+
 
   <br>
   
@@ -15,27 +18,17 @@
 ### Block diagram
 
 
-<img src="https://user-images.githubusercontent.com/75367132/214056920-bb085685-5444-45dd-a3cb-2abc99d5823b.PNG" width="80%" height="50%">
+<img src="https://user-images.githubusercontent.com/75367132/218461603-0c9e0616-c3ef-4adc-9ed6-e98a62a12568.PNG" width="80%" height="50%">
 
 
 <br>
 
 ## About Project
 
-### 얼굴 검출, 눈 검출
 
-<img src="https://img.shields.io/badge/Language-Python-green?style=flat"/><img src="https://img.shields.io/badge/Library-Opencv-blue?style=flat"/>
+### Web
 
-* opencv dnn 모듈을 이옹해 이미 학습된 모델 파일로 얼굴 검출
-
-* opencv의 haar cascade 알고리즘을 이용해서 눈 검출
-
-
-  <br>
-
-### 눈 깜빡임 인식
-
-<img src="https://img.shields.io/badge/Language-Python-green?style=flat"/><img src="https://img.shields.io/badge/Library-Opencv-blue?style=flat"/>
+<img src="https://img.shields.io/badge/Language-Java-green?style=flat"/><img src="https://img.shields.io/badge/Framework-Spring-blue?style=flat"/>
 
 * 샘플 데이터셋을 받아와서 학습시킨 후 모델 파일로 저장
   <img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2021/07/driver-drowsiness-dataset-sample.png" width="80%" height="50%">

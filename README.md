@@ -53,7 +53,7 @@
 
 * python dlib 라이브러리를 사용해서 미리 저장된 사진과 영상속 얼굴을 비교 후 판단
 
-  <img src="https://user-images.githubusercontent.com/75367132/218464861-a26cfa21-918e-4ce9-bb1e-09d59d1783d3.PNG" width="50%" height="50%">
+
 
   <br>
   
